@@ -6,4 +6,4 @@ Hierarchical Attention Network for Sentence Ordering(unfinished)
 * tensorflow >= 1.5
 
 ## Command
-python train.py 
+python train.py --gpu_device=0 --ckpt_dir=tfm/ --batch_size=64
